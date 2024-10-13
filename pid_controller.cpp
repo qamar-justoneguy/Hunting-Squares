@@ -14,9 +14,6 @@ float PID::compute(float setPoint, float feedback, float dt)
     output = (output > satMax) ? satMax : output;
     output = (output < satMin) ? satMin : output;
 
-    // std::cout << setPoint << ' ' << feedback << ' ' << error << ' ' <<
-    //      derivativeError << ' ' << integralError << ' ' << output << std::endl;
-
     prevError = error;
 
     return output;

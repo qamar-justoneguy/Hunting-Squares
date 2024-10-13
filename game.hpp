@@ -1,7 +1,7 @@
 #pragma once
 
 #include <SDL2/SDL.h>
-#include "iostream"
+#include <iostream>
 #include "hunting_squares.hpp"
 
 class Game
